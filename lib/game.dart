@@ -33,11 +33,6 @@ class GameScene extends FlameGame {
     super.update(dt);
 
     fps.update(dt);
-  }
-
-  @override
-  void render(Canvas canvas) {
-    super.render(canvas);
 
     fpsText.text = fps.fps.toStringAsFixed(0);
   }
